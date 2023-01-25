@@ -7,11 +7,11 @@ body {
 
 body h1 {
     color: white;
-    max-width: 50%;
     margin-left: auto !important;
     margin-right: auto !important;
     font-style: normal;
     font-weight: normal;
+    text-align: left;
 }
 
 body h2 {
@@ -21,15 +21,12 @@ body h2 {
 
 body h3 {
     color: white;
-    max-width: 50%;
-    margin-left: auto !important;
-    margin-right: auto !important;
     font-style: normal;
     font-weight: bold;
+    text-align: left;
 }
 
 a {
-    color: orange;
     text-align: justify;
     max-width: 50%;
     margin-left: auto !important;
@@ -37,13 +34,47 @@ a {
     font-size: 20px;
 }
 
+a:link {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: orange;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: goldenrod;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: orange;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
 p {
-    color: white;
+    /* color: white;
     margin-bottom: 30px;
     text-align: left;
     max-width: 50%;
     margin-left: auto !important;
     margin-right: auto !important;
+    font-size: 18px; */
+
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: left;
+
+    color: white;
     font-size: 18px;
 }
 
@@ -51,9 +82,6 @@ ul {
     color: white;
     margin-bottom: 5px;
     text-align: left;
-    max-width: 50%;
-    margin-left: auto !important;
-    margin-right: auto !important;
     font-size: 18px;
 }
 
@@ -61,10 +89,41 @@ ol {
     color: white;
     margin-bottom: 5px;
     text-align: left;
-    max-width: 50%;
-    margin-left: auto !important;
-    margin-right: auto !important;
     font-size: 18px;
+}
+
+.main-container {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    width: 965px;
+}
+
+.header {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    width: 965px;
+}
+
+.footer {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    width: 965px;
+}
+
+.banner {
+    margin: 0 auto;
+    text-align: center;
+    width: 965px;
+}
+
+.nav-bar {
+    min-height: 3em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .image-container {
@@ -94,12 +153,14 @@ ol {
     margin-bottom: 64px;
 }
 
-.fa-icon.fa-icon-2x {
-    line-height: 50px;
+.social-button {
+    /* line-height: 50px;
     font-size: 24px;
-}
-
-.fa-icon {
     display: inline-block;
-    text-align: center;
+    text-align: center; */
+
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
