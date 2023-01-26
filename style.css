@@ -88,6 +88,17 @@ ol {
     font-size: 18px;
 }
 
+hr {
+    /*style="width:95%;height:2px;text-align:center;margin-left:0;color:white;"*/
+
+    width: 95%;
+    text-align: center;
+    margin: left 0;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
 /*Classes*/
 
 .main-container {
