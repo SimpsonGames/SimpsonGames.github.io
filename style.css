@@ -27,6 +27,14 @@ body h3 {
     padding-bottom: 0px;
 }
 
+body h4 {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 0px;
+}
+
 a {
     text-align: justify;
     max-width: 50%;
@@ -76,7 +84,8 @@ p {
 
 ul {
     color: white;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
+    line-height: 150%;
     text-align: left;
     font-size: 18px;
 }
@@ -103,7 +112,9 @@ hr {
 
 .main-container {
     margin: 0 auto;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
     text-align: center;
     width: 965px;
 }
@@ -184,6 +195,23 @@ hr {
     border-radius: 100px;
     font-family: "Arvo", sans-serif;
     margin-bottom: 16px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #333333;
+    border: none;
+    color: goldenrod;
+    padding: 20px;
+    text-align: center;
+    text-decoration: underline;
+    display: block;
+    font-size: 20px;
+    margin: auto;
+    border-radius: 10px;
+    font-family: "Arvo", sans-serif;
+    margin-bottom: 16px;
+    cursor: pointer;
 }
 
 .social-button {
