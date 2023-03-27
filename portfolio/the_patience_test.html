@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html lang="en-GB" dir="ltr" style="font-size: 12; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <head>
+        <meta charset="utf-8">
+        <title>SimpsonGames - The Patience Test</title>
+        <link rel="icon" href="../img/favicon.ico">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
+    </head>
+    <body>
+        <div class="header">
+            <img class="banner" src="../img/banner.png" alt="SimpsonGames Banner">
+            <h2>A Portfolio For Harry Simpson</h2>
+            <div class="nav-bar">
+                <a href="simpsongames.github.io">Home</a>
+                <a href="..//about_me">About Me</a>
+                <a href="..//portfolio">Portfolio</a>
+            </div>
+            <hr>
+        </div>
+
+        <div class="main-container">
+            <h1>The Patience Test</h1>
+            <h3>Synopsis</h3>
+            <p>The Patience Test sees you sitting in a concrete room with nothing but the quiet ticking of the on-screen clock and the hum of the ventilation for company. Your challenge is to remain in the room for as long as possible.</p>
+        </div>
+
+        <div class="main-container">
+            <h3>Team</h3>
+            <h4>Programmers</h4>
+            <ul style="list-style-type: none;">
+                <li>Programmer/Music & Sound - Harry Simpson</li>
+            </ul>
+        </div>
+
+        <div class="main-container">
+            <h3>Skills Used</h3>
+            <ul>
+                <li>Inheritance</li>
+                <li>Unity Events</li>
+                <li>UI</li>
+                <li>Lightmap Baking</li>
+                <li>Unity Post Processing</li>
+            </ul>
+        </div>
+
+        <div class="main-container">
+            <h3>Experience</h3>
+            <p>The Patience Test started life in August 2021 as a small joke game I wanted to make to brush up on my Unity skills before my final year of university. Unfortunately, however, I soon lost steam with the project after creating the basic gameplay loop and abandoned it. Come 2023, with a firmer grasp of Unity and C# programming concepts and with April Fool’s Day coming up, I decided to restart this project from the beginning. During the development of this project, I decided to try many new things that I was not expecting to try, developing new skills that I will be able to utilise in future projects.</p>
+            <p>When creating the environments for the game, I decided to try Light Baking, something that I have never had to do for previous projects. Generating the lightmap for the main room provided nice results after just a handful of attempts, the lightmap for the lobby took a very long time to get right. I changed many of the settings in the Unity editor and tried recreating the lobby in Blender, both with very little success. Eventually, I decided to open the baked lightmap files in the GIMP image editor and smoothed out all of the artifacts that had emerged. After editing the lightmaps, I was very happy with the results.</p>
+            <p>Another new skill I decided to try was combining meshes to improve performance. I mainly applied and practised this skill in the main lobby area of the game, combining meshes that share materials. After doing this, I noted an improvement in the performance of the scene. After seeing the results of combining the meshes, this is definitely something I will be doing in the future.</p>
+            <p>A third skill that I practised during this project which I had not tired before is the use of Unity Events. Prior to this project, if I wanted to call a method from another script, I would have a reference to the script that contains the method I want to call and then call the method manually through code. However, after learning about Unity Events and implementing them, I found that my code felt a lot cleaner than before with methods being easier to call than before.</p>
+            <p>In addition to learning new skills through this project, I also found a variety of libraries and packages for Unity that I tested out. One of the packages I tested during this project is DOTween, a code-based animation library. Using this library, I was able to reduce the amount of animation clips and controllers in this project to zero, instead utilising code to animate objects and, more specifically, UI. I using DOTween to animate text boxes zooming in and out, images appearing and disappearing, the colour of materials, values displayed on screen and the size and rotation of TextMeshPro text. After using this library and seeing how robust and practical it is, I will definitely be using this for future projects.</p>
+            <p>Another library I tried out during this project is the BreakInfinity library that allows you to display numbers greater than the maximum double value. Initially, I thought this would be a good thing to use, allowing the in-game timer to reach values greater than normal. However, after some consideration, I realised that it was completely unnecessary to use for this game and removed the scripts. However, I will be keeping this library in mind should I decide at a later date that I want to make an idle game similar to that of Cookie Clicker.</p>
+        </div>
+
+        <hr>
+        <div class="footer">
+            
+            <h1>Contact Me!</h1>
+            <p>Email: h.simpson01@outlook.com</p>
+
+            <h3>External Links</h3>
+            <p>
+                <a class="social-button" href="https://www.linkedin.com/in/harry-simpson-3b3aa1204/"><img src="../img/linkedin_icon.png" alt="linkedin_icon"></a>
+                <a class="social-button" href="https://github.com/SimpsonGames"><img src="../img/github_icon.png" alt="github_icon"></a>            
+                <a class="social-button" href="https://simpsongames.itch.io"><img src="../img/itchio_icon.png" alt="itchio_icon"></a>
+            </p>
+            <p>Copyright © 2023 Harry Simpson</p>
+        </div>
+    </body>
