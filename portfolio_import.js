@@ -3,7 +3,7 @@ fetch('portfolio.json')
   .then(data => {
     // Use the data to populate your website
 
-    const projectsContainer = document.querySelectorAll('.portfolio-grid');
+    const projectsContainer = document.querySelector('#portfolio-grid');
 
     data.projects.forEach(project => {
       const projectElement = document.createElement('div');
