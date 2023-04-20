@@ -88,7 +88,7 @@ fetch('portfolio_music.json')
         albumElement.classList.add('portfolio-panel');
 
         let albumInfo = `
-        <img class="panel-image" src="img/portfolio/panels/${album.image}" alt="${album.title}>
+        <img class="panel-image" src="img/portfolio/panels/${album.image}" alt="${album.title}">
         <h3>${album.title}</h3>
         `;
 
