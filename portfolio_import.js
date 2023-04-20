@@ -35,8 +35,11 @@ fetch('portfolio.json')
         }
       });
     }
+    else
+    {
+      console.log('No element found with selector "#featured-grid"');
+    }
 
-    
     //Populate projects container
     const projectsContainer = document.querySelector('#portfolio-grid');
 
@@ -72,3 +75,39 @@ fetch('portfolio.json')
     }
   });
 
+fetch('portfolio_music.json')
+  .then(response => response.json())
+  .then(data => {
+    //Populate music list
+    const musicContainer = document.querySelector('#music-grid');
+
+    if (musicContainer)
+    {
+      data.albums.forEach(album => {
+        const albumElement = document.createElement('div');
+        albumElement.classList.add('portfolio-panel');
+
+        let albumInfo = `
+        <img class="panel-image" src="img/portfolio/panels/${album.image}" alt="${album.title}>
+        <h3>${album.title}</h3>
+        `;
+
+        if (album.bandcampLink !== null && album.bandcampLink !== "#")
+        {
+          albumInfo += `<a href="${album.bandcampLink}" target="_blank"><button class="button">View the album on Bandcamp</button></a>`;
+        }
+
+        if (album.itchIoLink !== null && album.itchIoLink !== "#")
+        {
+          albumInfo += `<a href="${album.itchIoLink}" target="_blank"><button class="button">View the album on Itch.io</button></a>`;
+        }
+
+        albumElement.innerHTML = albumInfo;
+        musicContainer.appendChild(albumElement);
+      });
+    }
+    else
+    {
+      console.log('No element found with selector "#music-grid"');
+    }
+  })
