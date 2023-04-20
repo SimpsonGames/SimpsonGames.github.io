@@ -13,8 +13,8 @@
             "date":"August 2020",
             "description":"My first released Unity project as well as my first solo game jam, Escape to the Afterlife sees you as the spirit of the Pharaoh Necherophes platforming his way through his own tomb to get to the afterlife.",
             "image":"etta.png",
-            "portfolioPage":"https://simpsongames.itch.io/escape-to-the-afterlife",
-            "externalPage":"#"
+            "portfolioPage":"#",
+            "externalPage":"https://simpsongames.itch.io/escape-to-the-afterlife"
        },
        {
             "title":"Phantom Pathfinding Test (November 2021)",
