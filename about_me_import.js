@@ -20,4 +20,24 @@ fetch('about_me.json')
             console.log('No element found with selector "#contents-menu"');
         }
 
+        //Populate page body
+        const bodyContainer = document.querySelector('#about-body');
+
+        if (bodyContainer)
+        {
+            data.sections.forEach(section => {
+                const bodyElement = document.createElement('div');
+
+                paragraphInfo = `<h1 id="${section.scrollID}">${section.title}</h1>
+                <p>${section.body}</p>`;
+
+                bodyElement.innerHTML = paragraphInfo;
+                bodyContainer.appendChild(bodyElement);
+            });
+        }
+        else
+        {
+            console.log('No element found with selector "#about-body"')
+        }
+
     });
