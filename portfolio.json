@@ -4,6 +4,11 @@
           "title":"La Resistance",
           "description":"Created for the University of Derby game jam in March 2020, La Resistance is a two player arcade game where you must collect as much stolen treasure as possible.",
           "image":"img/portfolio/panels/le_resistance.png"
+       },
+       {
+        "title":"Escape to the Afterlife",
+        "description":"My first released Unity project as well as my first solo game jam, Escape to the Afterlife sees you as the spirit of the Pharaoh Necherophes platforming his way through his own tomb to get to the afterlife.",
+        "image":"img/portfolio/panels/etta.png"
        }
     ]
  }
