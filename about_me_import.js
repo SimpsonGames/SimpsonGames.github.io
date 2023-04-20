@@ -21,7 +21,7 @@ fetch('about_me.json')
         }
 
         //Populate page body
-        const bodyContainer = document.querySelector('#about-body');
+        const bodyContainer = document.querySelector('#about-content');
 
         if (bodyContainer)
         {
@@ -37,7 +37,7 @@ fetch('about_me.json')
         }
         else
         {
-            console.log('No element found with selector "#about-body"')
+            console.log('No element found with selector "#about-content"')
         }
 
     });
