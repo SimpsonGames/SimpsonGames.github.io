@@ -4,49 +4,65 @@
             "title":"La Resistance",
             "date":"March 2020",
             "description":"Created for the University of Derby game jam in March 2020, La Resistance is a two player arcade game where you must collect as much stolen treasure as possible.",
-            "image":"img/portfolio/panels/le_resistance.png"
+            "image":"le_resistance.png",
+            "portfolioPage":"#",
+            "externalPage":"#"
        },
        {
             "title":"Escape to the Afterlife",
             "date":"August 2020",
             "description":"My first released Unity project as well as my first solo game jam, Escape to the Afterlife sees you as the spirit of the Pharaoh Necherophes platforming his way through his own tomb to get to the afterlife.",
-            "image":"img/portfolio/panels/etta.png"
+            "image":"etta.png",
+            "portfolioPage":"https://simpsongames.itch.io/escape-to-the-afterlife",
+            "externalPage":"#"
        },
        {
             "title":"Phantom Pathfinding Test (November 2021)",
             "date":"November 2021",
             "description":"This project was created to test and understand Unity's in-built pathfinding system. The project uses graphics from The Legend of Zelda: Phantom Hourglass and mimics the Temple of the Ocean King dungeon.",
-            "image":"img/portfolio/panels/phantom_raycast.png"
+            "image":"phantom_raycast.png",
+            "portfolioPage":"#",
+            "externalPage":"#"
        },
        {
             "title":"Stop-Distance Test VR Application",
             "date":"April 2022",
             "description":"Created for my final year project at university, this application is a VR implementation of the stop-distance test, an experiment designed to measure an individuals' personal space.",
-            "image":"img/portfolio/panels/dissertation_vr.png"
+            "image":"dissertation_vr.png",
+            "portfolioPage":"#",
+            "externalPage":"#"
        },
        {
             "title":"Cellborn",
             "date":"June 2022",
             "description":"Developed during my third year game development module at university, Cellborn is a top-down fantasy shooter where you play as an elf named Elvin, questing to escape the Evil Wizard's tower.",
-            "image":"img/portfolio/panels/cellborn.png"
+            "image":"cellborn.png",
+            "portfolioPage":"#",
+            "externalPage":"#"
        },
        {
             "title":"Project Avalanche",
             "date":"August 2022",
             "description":"This game started life as an application testing the Photon Pun 2 framework for multiplayer games in Unity.",
-            "image":"img/portfolio/panels/project_alvalanche.png"
+            "image":"project_alvalanche.png",
+            "portfolioPage":"#",
+            "externalPage":"#"
        },
        {
             "title":"VortexOS",
             "date":"Started September 2022",
             "description":"My first attempt at releasing a decently sized project, this horror game sees you going against strange entities to rid a hacker from your computer.",
-            "image":"img/portfolio/panels/vortexos.png"
+            "image":"vortexos.png",
+            "portfolioPage":"#",
+            "externalPage":"#"
        },
        {
             "title":"The Patience Test",
             "date":"April 2023",
             "description":"The goal of The Patience Test is simple: Sit in a room for as long as possible!",
-            "image":"img/portfolio/panels/thepatiencetest.png"
+            "image":"thepatiencetest.png",
+            "portfolioPage":"#",
+            "externalPage":"https://simpsongames.itch.io/the-patience-test"
        }
     ]
  }
