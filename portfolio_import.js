@@ -12,7 +12,7 @@ fetch('portfolio.json')
         projectElement.classList.add('portfolio-panel');
         projectElement.innerHTML = `
           <img class="panel-image" src="${project.image}" alt="${project.title}">
-          <h3>${project.title}</h3>
+          <h3>${project.title} ${project.date}}</h3>
           <p class="panel-desc">${project.description}</p>
         `;
         projectsContainer.appendChild(projectElement);
