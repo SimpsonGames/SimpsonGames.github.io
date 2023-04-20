@@ -17,12 +17,12 @@ fetch('portfolio.json')
         <p class="panel-desc">${project.description}</p>
       `;
 
-        if (project.portfolioPage !== null || project.portfolioPage !== "#")
+        if (project.portfolioPage !== null && project.portfolioPage !== "#")
         {
           projectInfo += `<a href="${project.portfolioPage}"><button class="button">Read More</button></>`;
         }
 
-        if (project.externalPage !== null || project.externalPage !== "#")
+        if (project.externalPage !== null && project.externalPage !== "#")
         {
           projectInfo += `<a href="${project.externalPage}" target="_blank"><button class="button">View Project Page</button></>`;
         }
