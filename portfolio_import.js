@@ -11,9 +11,9 @@ fetch('portfolio.json')
         const projectElement = document.createElement('div');
         projectElement.classList.add('portfolio-panel');
         projectElement.innerHTML = `
-          <img src="${project.image}" alt="${project.title}">
-          <h2>${project.title}</h2>
-          <p>${project.description}</p>
+          <img class="panel-image" src="${project.image}" alt="${project.title}">
+          <h3>${project.title}</h3>
+          <p class="panel-desc">${project.description}</p>
         `;
         projectsContainer.appendChild(projectElement);
       });
