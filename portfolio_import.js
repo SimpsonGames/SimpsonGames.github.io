@@ -22,7 +22,7 @@ fetch('portfolio.json')
 
           if (project.portfolioPage !== null && project.portfolioPage !== "#")
           {
-            featuredInfo += `<a href="${project.portfolioPage}"><button class="button">Read More</button></>`;
+            featuredInfo += `<a href="portfolio/${project.portfolioPage}"><button class="button">Read More</button></>`;
           }
 
           if (project.externalPage !== null && project.externalPage !== "#")
