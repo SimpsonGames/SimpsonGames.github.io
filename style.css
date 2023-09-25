@@ -161,16 +161,8 @@ hr {
 }
 
 .panel-image {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    vertical-align: middle;
-    transition: transform 0.3s;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    transition-property: transform;
+    max-width: 450px;
+    max-height: 357px;
 }
 
 .panel-desc {
