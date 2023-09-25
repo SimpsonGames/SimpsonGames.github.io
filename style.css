@@ -158,24 +158,34 @@ hr {
     display: grid;
     justify-content: center;
     align-items: flex-end;
+    color: white;
+    transition: transform .2s;
+}
+
+.portfolio-panel:hover {
+    transition: transform 0.3s;
+    transform: scale(1.25);
 }
 
 .panel-image {
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    vertical-align: middle;
-    transition: transform 0.3s;
-    transition-duration: 0.3s;
-    transition-timing-function: ease;
-    transition-delay: 0s;
-    transition-property: transform;
+    max-width: 450px;
+    max-height: 357px;
+}
+
+.panel-title {
+    position: absolute;
+    top: 16px;
+    left: 16px;
 }
 
 .panel-desc {
-    max-width: 450px;
-    padding-top: 0%;
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    z-index: 10;
+    color: white;
+    cursor: pointer;
+    font-size: 0.75rem;
 }
 
 .image-container {
