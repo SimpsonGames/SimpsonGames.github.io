@@ -7,10 +7,12 @@ fetch('about_me.json')
 
         if (aboutMeContainer)
         {
-            aboutMeTitle = `<h1>"${data.sections[0].title}"</h1>`
+            let firstElement = data.sections[0];
+            
+            aboutMeTitle = `<h1>"${firstElement.title}"</h1>`
             aboutMeContainer.appendChild(aboutMeTitle);
 
-            aboutMeBody = `<p>"${data.sections[0].body}"</p>`
+            aboutMeBody = `<p>"${firstElement.body}"</p>`
             aboutMeContainer.appendChild(aboutMeBody);
 
             aboutMeLink = `<a href="/about_me"><button class="button">Read More</button></a>`
@@ -20,7 +22,7 @@ fetch('about_me.json')
         }
         else
         {
-            console.log('No element found with selector "#contents-menu"');
+            console.log('No element found with selector "#about-me-box"');
         }
 
         //<h1 id="about-me-header"></h1>
