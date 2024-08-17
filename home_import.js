@@ -8,17 +8,15 @@ fetch('about_me.json')
         if (aboutMeContainer)
         {
             let firstElement = data.sections[0];
+            const bodyElement = document.createElement('div');
             
-            aboutMeTitle = `<h1>"${firstElement.title}"</h1>`
-            aboutMeContainer.appendChild(aboutMeTitle);
-
-            aboutMeBody = `<p>"${firstElement.body}"</p>`
-            aboutMeContainer.appendChild(aboutMeBody);
-
-            aboutMeLink = `<a href="/about_me"><button class="button">Read More</button></a>`
-            aboutMeContainer.appendChild(aboutMeLink);
-
-            aboutMeContainer.appendChild(`<hr></hr>`);
+            aboutMe = `<h1>"${firstElement.title}"</h1>
+            aboutMeBody = <p>"${firstElement.body}"</p>
+            <a href="/about_me"><button class="button">Read More</button></a>
+            <hr></hr>`
+            
+            bodyElement.innerHTML = aboutMe;
+            aboutMeContainer.appendChild(bodyElement);
         }
         else
         {
