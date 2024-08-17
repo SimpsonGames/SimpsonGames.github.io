@@ -150,6 +150,7 @@ hr {
     display: flex;
     padding: 4px;
     flex-direction: row;
+    flex-grow: inherit;
     justify-content: center;
     flex-wrap: wrap;
     /*grid-template-columns: 1fr 1fr;
