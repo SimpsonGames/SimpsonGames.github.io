@@ -112,8 +112,8 @@ hr {
 
 .main-container {
     margin: 0 auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 2px;
+    padding-right: 2px;
     padding-bottom: 10px;
     text-align: center;
     width: 965px;
