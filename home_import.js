@@ -3,7 +3,7 @@ fetch('about_me.json')
     .then(data => {
 
         //create about me section
-        const aboutMeContainer = document.querySelector('#about-content');
+        const aboutMeContainer = document.querySelector('#about-me-box');
 
         if (aboutMeContainer)
         {
