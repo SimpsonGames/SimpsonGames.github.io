@@ -42,7 +42,7 @@
                "description": "Developed during my third year game development module at university, Cellborn is a top-down fantasy shooter where you play as an elf named Elvin, questing to escape the Evil Wizard's tower.",
                "image": "cellborn.png",
                "portfolioPage": "cellborn.html",
-               "externalPage": "#",
+               "externalPage": "cellborn.html",
                "featured": true
           },
           {
