@@ -159,9 +159,16 @@ hr {
 }
 
 .portfolio-panel {
-    display: grid;
+    max-width: 300px;
+    max-height: 600px;
+    margin: 15px;
+    background: #fff;
+    text-align: left;
+    cursor: pointer;
+
+    /*display: grid;
     justify-content: center;
-    align-items: flex-end;
+    align-items: flex-end;*/
 }
 
 .panel-image {
