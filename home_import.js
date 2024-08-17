@@ -10,8 +10,8 @@ fetch('about_me.json')
             let firstElement = data.sections[0];
             const bodyElement = document.createElement('div');
             
-            aboutMe = `<h1>"${firstElement.title}"</h1>
-            aboutMeBody = <p>"${firstElement.body}"</p>
+            aboutMe = `<h1>${firstElement.title}</h1>
+            <p>${firstElement.body}</p>
             <a href="/about_me"><button class="button">Read More</button></a>
             <hr></hr>`
             
