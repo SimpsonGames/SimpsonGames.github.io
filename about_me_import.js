@@ -28,8 +28,11 @@ fetch('about_me.json')
             data.sections.forEach(section => {
                 const bodyElement = document.createElement('div');
 
+                bodyText = section.body
+                bodyText.replace(/\\n/g, '<br>');
+
                 paragraphInfo = `<h1 id="${section.scrollID}">${section.title}</h1>
-                <p>${section.body}</p>`;
+                <p>${bodyText}</p>`;
 
                 bodyElement.innerHTML = paragraphInfo;
                 bodyContainer.appendChild(bodyElement);
