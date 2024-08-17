@@ -1,7 +1,9 @@
 body {
     font-family: "Arvo", sans-serif;
     color: white;
-    background-image: linear-gradient(#1b0064, #000000);
+    background-image: linear-gradient(#0b0029, #000000);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     max-height: fit-content;
 }
 
