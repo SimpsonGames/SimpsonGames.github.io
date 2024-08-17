@@ -147,11 +147,15 @@ hr {
 }
 
 .portfolio-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /*grid-template-columns: 1fr 1fr;
     column-count: 2;
     padding: 10px;
-    width: 965px;
+    width: 965px;*/
 }
 
 .portfolio-panel {

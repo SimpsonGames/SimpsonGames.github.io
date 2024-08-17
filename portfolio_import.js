@@ -20,7 +20,7 @@ fetch('portfolio.json')
           <p class="panel-desc">${project.description}</p>
           `;
 
-          if (project.portfolioPage !== null && project.portfolioPage !== "#")
+          if (project.portfolioPage !== null && project.portfolioPage !== "#") 
           {
             featuredInfo += `<a href="portfolio/${project.portfolioPage}"><button class="button">Read More</button></>`;
           }
