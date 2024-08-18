@@ -1,6 +1,6 @@
 function importInfo(fileName)
 {
-    fetch('the_patience_test.json')
+    fetch(fileName)
         .then(response => response.json())
         .then(data => {
 
