@@ -6,8 +6,12 @@
         <link rel="icon" href="../img/favicon.ico">
         <link rel="stylesheet" href="../style.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
-        <script src="../portfolio/import_portfolio_page.js"></script>
         <script src="../load_components.js"></script>
+        <script src="../portfolio/import_portfolio_page.js"></script>
+        <script>
+            var fileName = 'the-patience-test';
+            window.onload = function() { importInfo(fileName); };
+        </script>
     </head>
     <body>
         <div id="header"></div>
