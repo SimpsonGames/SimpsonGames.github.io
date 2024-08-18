@@ -12,7 +12,9 @@ function importInfo(fileName)
             
             let pageInfo = `<h1>${info.title}</h1>
             <h3>Synopsis</h3>
-            <p>${info.synopsis}</p>`
+            <p>${info.synopsis}</p>`;
+
+            infoContainer.innerHTML = pageInfo;
         });
 }
 
