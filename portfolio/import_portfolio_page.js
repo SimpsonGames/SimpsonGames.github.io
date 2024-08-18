@@ -1,6 +1,6 @@
 function importInfo(fileName)
 {
-    const filePath = `${fileName}.json`;
+    const filePath = `../portfolio/${fileName}.json`;
 
     fetch(filePath)
         .then(response => response.json())
@@ -8,11 +8,10 @@ function importInfo(fileName)
 
             //create about me section
             const infoContainer = document.getElementById('info-container');
-            let info = data.info[0];
             
-            let pageInfo = `<h1>${info.title}</h1>
+            let pageInfo = `<h1>${data.title}</h1>
             <h3>Synopsis</h3>
-            <p>${info.synopsis}</p>`;
+            <p>${data.synopsis}</p>`;
 
             infoContainer.innerHTML = pageInfo;
         });
