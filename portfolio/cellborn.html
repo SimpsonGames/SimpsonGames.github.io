@@ -1,29 +1,23 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en-GB" dir="ltr" style="font-size: 12; font-family: Verdana, Geneva, Tahoma, sans-serif;">
+    <head>
+        <meta charset="utf-8">
+        <title>SimpsonGames - Cellborn</title>
+        <link rel="icon" href="../img/favicon.ico">
+        <link rel="stylesheet" href="../style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
+        <script src="../load_components.js"></script>
+        <script src="../portfolio/import_portfolio_page.js"></script>
+        <script>
+            var fileName = 'cellborn.json';
+            window.onload = function() { importInfo(fileName); };
+        </script>
+    </head>
+    <body>
+        <div id="header"></div>
 
-<head>
-    <meta charset="utf-8">
-    <title>SimpsonGames - Cellborn</title>
-    <link rel="icon" href="../img/favicon.ico">
-    <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo">
-    <script src="portfolio_page.js"></script>
-</head>
-<body>
-    <div class="header">
-        <img class="banner" src="../img/banner.png" alt="SimpsonGames Banner">
-        <h2>A Portfolio For Harry Simpson</h2>
-        <div class="nav-bar">
-            <a href="simpsongames.github.io">Home</a>
-            <a href="..//about_me">About Me</a>
-            <a href="..//portfolio">Portfolio</a>
+        <div id="info-container" class="main-container"">           
         </div>
-        <hr>
-    </div>
 
-<div id='project-list' project-data="Cellborn"></div>
-
-</body>
-
-
-</html>
+        <div id="footer"></div>
+    </body>

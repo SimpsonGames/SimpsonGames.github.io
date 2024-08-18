@@ -1,10 +1,20 @@
 {
-    "title" : "The Patience Test",
-    "synopsis" : "The Patience Test sees you sitting in a concrete room with nothing but the quiet ticking of the on-screen clock and the hum of the ventilation for company. Your challenge is to remain in the room for as long as possible.",
+    "title" : "Cellborn",
+    "synopsis" : "Made for my university Game Development module, Cellborn sees you as the intrepid Elfin trying to escape the Evil Wizard's tower initially armed with nothing but a large collection of pebbles! Along the way, Elfin collects a wide variety of strange and interesting guns that can be used to defeat the fearsome fairies and spiteful spitting snakes that inhabit the tower!<p>Are you fearless enough to defeat the Evil Wizard and earn your freedom?",
     "team" : [{
-        "role" : "Programming & Audio",
-        "credits" : [ "Harry Simpson" ] }],
-    "skills" : [ "Inheritance", "Unity Events", "UI", "Light Map Baking", "Unity Post Processing" ],
+        "role" : "Leads",
+        "credits" : [ "Lead Director - Matilde Blackmore", "Lead Programmer - Luke Rapkin", "Lead Artist - Maisie Parkinson" ] },
+    {
+        "role" : "Programming",
+        "credits" : [ "Matilde Blackmore", "Luke Rapkin", "Harry Simpson", "Thomas Walters" ] },
+    {
+        "role" : "Artists",
+        "credits" : [ "Maisie Parkinson", "Harrison Reeves", "James Hendy", "Alex Norwood" ] },
+    {
+        "role" : "Audio",
+        "credits" : [ "Harry Simpson" ]
+    }],
+    "skills" : [ "Game Settings", "UI, HUD, and UX", "Particle Systems", "", "Unity Post Processing" ],
     "experience" : "The Patience Test started life in August 2021 as a small joke game I wanted to make to brush up on my Unity skills before my final year of university. Unfortunately, I soon lost steam with the project after creating the basic gameplay loop and abandoned it. Come 2023, with a firmer grasp of Unity and C# programming concepts and with April Fool's Day coming up, I decided to restart this project from the beginning. During the development of this project, I decided to try many new things that I was not expecting to try, developing new skills that I will be able to utilise in future projects.<p>When creating the environments for the game, I decided to try Light Baking, something that I have never had to do for previous projects. Generating the lightmap for the main room provided nice results after just a handful of attempts, the lightmap for the lobby took a very long time to get right. I changed many of the settings in the Unity editor and tried recreating the lobby in Blender, both with very little success. Eventually, I decided to open the baked lightmap files in the GIMP image editor and smoothed out all of the artifacts that had emerged. After editing the lightmaps, I was very happy with the results.<p>Another new skill I decided to try was combining meshes to improve performance. I mainly applied and practised this skill in the main lobby area of the game, combining meshes that share materials. After doing this, I noted an improvement in the performance of the scene. After seeing the results of combining the meshes, this is definitely something I will be doing in the future.<p>A third skill that I practised during this project which I had not tired before is the use of Unity Events. Prior to this project, if I wanted to call a method from another script, I would have a reference to the script that contains the method I want to call and then call the method manually through code. However, after learning about Unity Events and implementing them, I found that my code felt a lot cleaner than before with methods being easier to call than before.<p>In addition to learning new skills through this project, I also found a variety of libraries and packages for Unity that I tested out. One of the packages I tested during this project is DOTween, a code-based animation library. Using this library, I was able to reduce the amount of animation clips and controllers in this project to zero, instead utilising code to animate objects and, more specifically, UI. I using DOTween to animate text boxes zooming in and out, images appearing and disappearing, the colour of materials, values displayed on screen and the size and rotation of TextMeshPro text. After using this library and seeing how robust and practical it is, I will definitely be using this for future projects.<p>Another library I tried out during this project is the BreakInfinity library that allows you to display numbers greater than the maximum double value. Initially, I thought this would be a good thing to use, allowing the in-game timer to reach values greater than normal. However, after some consideration, I realised that it was completely unnecessary to use for this game and removed the scripts. However, I will be keeping this library in mind should I decide at a later date that I want to make an idle game similar to that of Cookie Clicker.</p>"
 
 }
