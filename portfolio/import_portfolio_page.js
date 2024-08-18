@@ -13,11 +13,20 @@ function importInfo(fileName)
             <h3>Credits</h3>`;
 
             data.team.forEach(teamElement => {
-                pageInfo += `<h4>${teamElement.role}</h4>`;
+                pageInfo += `<h4>${teamElement.role}</h4>
+                <ul style="list-style-type: none;">`;
                 teamElement.credits.forEach(nameElement => {
                     pageInfo += `<li>${nameElement}</li>`
                 });
+                pageInfo += `</ul>`;
             });
+
+            pageInfo += `<h3>Skills Used</h3>
+            <ul>`
+            data.skills.forEach(skill => {
+                pageInfo += `<li>${skill}</li>`
+            });
+            pageInfo += `</ul>`
 
             infoContainer.innerHTML = pageInfo;
         });
