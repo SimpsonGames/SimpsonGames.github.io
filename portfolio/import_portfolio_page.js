@@ -1,6 +1,6 @@
 function importInfo(fileName)
 {
-    const filePath = `${fileName}.json`;
+    const filePath = `../portfolio/${fileName}.json`;
 
     fetch(filePath)
         .then(response => response.json())
