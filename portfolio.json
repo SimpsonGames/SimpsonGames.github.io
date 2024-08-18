@@ -6,7 +6,7 @@
                "description": "Created for the University of Derby game jam in March 2020, La Resistance is a two player arcade game where you must collect as much stolen treasure as possible.",
                "image": "le_resistance.png",
                "portfolioPage": "#",
-               "externalPage": "#",
+               "externalPage": "https://github.com/desces/GJ2020LeResistance",
                "featured": false
           },
           {
@@ -42,7 +42,7 @@
                "description": "Developed during my third year game development module at university, Cellborn is a top-down fantasy shooter where you play as an elf named Elvin, questing to escape the Evil Wizard's tower.",
                "image": "cellborn.png",
                "portfolioPage": "cellborn",
-               "externalPage": "#",
+               "externalPage": "https://github.com/Lyraedan/Cellborn",
                "featured": true
           },
           {
