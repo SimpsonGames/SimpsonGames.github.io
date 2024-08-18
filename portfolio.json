@@ -10,7 +10,7 @@
                "featured": false
           },
           {
-               "title": "Escape to the Afterlife",
+               "title": "Escape to the Afterlife (UNITY)",
                "date": "August 2020",
                "description": "My first released Unity project as well as my first solo game jam, Escape to the Afterlife sees you as the spirit of the Pharaoh Necherophes platforming his way through his own tomb to get to the afterlife.",
                "image": "etta.png",
@@ -70,6 +70,15 @@
                "image": "thepatiencetest.png",
                "portfolioPage": "the_patience_test",
                "externalPage": "https://simpsongames.itch.io/the-patience-test",
+               "featured": true
+          },
+          {
+               "title": "Escape to the Afterlife (GODOT)",
+               "date": "August 2024",
+               "description": "A Godot port of my 2020 Unity game jam game to learn Godot 4.",
+               "image": "etta_godot.png",
+               "portfolioPage": "#",
+               "externalPage": "#",
                "featured": true
           }
      ]
