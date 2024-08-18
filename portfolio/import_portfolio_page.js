@@ -26,7 +26,9 @@ function importInfo(fileName)
             data.skills.forEach(skill => {
                 pageInfo += `<li>${skill}</li>`
             });
-            pageInfo += `</ul>`
+            pageInfo += `</ul>
+            <h3>Experience</h3>
+            <p>${data.experience}</p>`
 
             infoContainer.innerHTML = pageInfo;
         });
