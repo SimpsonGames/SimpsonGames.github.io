@@ -16,8 +16,3 @@ function importInfo(fileName)
             infoContainer.innerHTML = pageInfo;
         });
 }
-
-document.addEventListener('DOMContentLoaded', () => { 
-    var fileName = document.getElementById('info-container').value;
-    importInfo(fileName);
-});
