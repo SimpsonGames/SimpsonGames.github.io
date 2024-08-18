@@ -17,16 +17,7 @@
                "portfolioPage": "#",
                "externalPage": "https://simpsongames.itch.io/escape-to-the-afterlife",
                "featured": false
-          },
-          {
-               "title": "Phantom Pathfinding Test",
-               "date": "November 2021",
-               "description": "This project was created to test and understand Unity's in-built pathfinding system. The project uses graphics from The Legend of Zelda: Phantom Hourglass and mimics the Temple of the Ocean King dungeon.",
-               "image": "phantom_raycast.png",
-               "portfolioPage": "#",
-               "externalPage": "#",
-               "featured": false
-          },
+          },          
           {
                "title": "Stop-Distance Test VR Application",
                "date": "April 2022",
@@ -44,15 +35,6 @@
                "portfolioPage": "cellborn",
                "externalPage": "https://github.com/Lyraedan/Cellborn",
                "featured": true
-          },
-          {
-               "title": "Project Avalanche",
-               "date": "August 2022",
-               "description": "This game started life as an application testing the Photon Pun 2 framework for multiplayer games in Unity.",
-               "image": "project_alvalanche.png",
-               "portfolioPage": "#",
-               "externalPage": "#",
-               "featured": false
           },
           {
                "title": "VortexOS",
