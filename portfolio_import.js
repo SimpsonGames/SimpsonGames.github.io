@@ -92,14 +92,9 @@ fetch('portfolio_music.json')
         <h3>${album.title}</h3>
         `;
 
-        if (album.bandcampLink !== null && album.bandcampLink !== "#")
+        if (album.page !== null && album.page !== "#")
         {
-          albumInfo += `<a href="${album.bandcampLink}" target="_blank"><button class="button">View the album on Bandcamp</button></a>`;
-        }
-
-        if (album.itchIoLink !== null && album.itchIoLink !== "#")
-        {
-          albumInfo += `<a href="${album.itchIoLink}" target="_blank"><button class="button">View the album on Itch.io</button></a>`;
+          albumInfo += `<a href="../portfolio/music/${album.page}" target="_blank"><button class="button">View Music</button></a>`;
         }
 
         albumElement.innerHTML = albumInfo;
