@@ -1,6 +1,6 @@
 function importInfo(fileName)
 {
-    fetch(fileName)
+    fetch('the_patience_test.json')
         .then(response => response.json())
         .then(data => {
 
@@ -14,7 +14,7 @@ function importInfo(fileName)
 
             data.team.forEach(teamElement => {
                 pageInfo += `<h4>${teamElement.role}</h4>`;
-                data.team.credits.forEach(nameElement => {
+                teamElement.credits.forEach(nameElement => {
                     pageInfo += `<li>${nameElement}</li>`
                 });
             });
