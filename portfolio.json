@@ -68,7 +68,7 @@
                "date": "April 2023",
                "description": "The goal of The Patience Test is simple: Sit in a room for as long as possible!",
                "image": "thepatiencetest.png",
-               "portfolioPage": "the_patience_test.html",
+               "portfolioPage": "portfolio/the_patience_test.html",
                "externalPage": "https://simpsongames.itch.io/the-patience-test",
                "featured": true
           }
