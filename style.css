@@ -110,6 +110,10 @@ hr {
     border-radius: 4px;
 }
 
+table, th, td {
+    border:1px solid black;
+}
+
 /*Classes*/
 
 .main-container {
