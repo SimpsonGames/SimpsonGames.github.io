@@ -23,7 +23,7 @@ function importInfo(fileName)
                 <td>${musicElement.description}</td>
                 <td>
                     <audio controls>
-                        <source src="/audio/${data.musicFolder}/${musicElement.audioFile} type="audio/ogg">"
+                        <source src=${musicElement.audioFile} type="audio/ogg">"
                     </audio>
                 </td></tr>`
             });
