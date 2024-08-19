@@ -10,18 +10,25 @@ function importInfo(fileName)
             let pageInfo = `<h1>${data.pageTitle}</h1>
             <h3>Synopsis</h3>
             <p>${data.pageDescription}</p>
-            <h3>Credits</h3>`;
+            <h3>Music</h3>
+            <table>
+            <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Music</th>
+            </tr>`;
 
-            /* data.team.forEach(teamElement => {
-                pageInfo += `<h4>${teamElement.role}</h4>
-                <ul style="list-style-type: none;">`;
-                teamElement.credits.forEach(nameElement => {
-                    pageInfo += `<li>${nameElement}</li>`
-                });
-                pageInfo += `</ul>`;
+            data.music.forEach(musicElement => {
+                pageInfo += `<td>${musicElement.title}</td>
+                <td>${musicElement.description}</td>
+                <td>
+                    <audio controls>
+                        <source src="/audio/${data.musicFolder}/${musicElement.audioFile} type="audio/ogg">"
+                    </audio>
+                </td>`
             });
 
-            pageInfo += `<h3>Skills Used</h3>
+            /* pageInfo += `<h3>Skills Used</h3>
             <ul>`
             data.skills.forEach(skill => {
                 pageInfo += `<li>${skill}</li>`

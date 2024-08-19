@@ -2,6 +2,7 @@
     "pageTitle": "Cellborn",
     "pageDescription": "The soundtrack I created for my university final year project!",
     "pageLink": "cellborn",
+    "musicFolder": "cellborn",
     "music": [
         {
             "title": "Title Theme",
