@@ -94,7 +94,7 @@ fetch('portfolio_music.json')
 
         if (album.page !== null && album.page !== "#")
         {
-          albumInfo += `<a href="../portfolio/music/${album.page}" target="_blank"><button class="button">View Music</button></a>`;
+          albumInfo += `<a href="../portfolio/music/${album.page}"><button class="button">View Music</button></a>`;
         }
 
         albumElement.innerHTML = albumInfo;
