@@ -15,9 +15,59 @@
             "audioFile": "MUS_Story.ogg"
         },
         {
-            "title": "Cell",
+            "title": "Alone in the Cell",
             "description": "The music that plays before you leave the beginning cell.",
             "audioFile": "MUS_Cell.ogg"
+        },
+        {
+            "title": "The Wizard's Tower",
+            "description": "The main dungeon music.",
+            "audioFile": "MUS_Dungeon.ogg"
+        },
+        {
+            "title": "Music Gun",
+            "description": "The music that plays when the player uses the Music Gun.",
+            "audioFile": "MUS_Music_Gun.ogg"
+        },
+        {
+            "title": "The Wizard",
+            "description": "The music that plays prior to the final battle with the Evil Wizard.",
+            "audioFile": "MUS_Wizard_Cutscene.ogg"
+        },
+        {
+            "title": "The Wizard's Brawl",
+            "description": "The music that plays when the player is fighting the Evil Wizard, the final boss.",
+            "audioFile": "MUS_Wizard_Fight.ogg"
+        },
+        {
+            "title": "Ending",
+            "description": "The music that plays during the ending cutscene.",
+            "audioFile": "MUS_Ending.ogg"
+        },
+        {
+            "title": "Cell (Unused)",
+            "description": "Unused music from the development of the game.",
+            "audioFile": "MUS_Cell_Old.ogg"
+        },
+        {
+            "title": "Dungeon (Unused)",
+            "description": "Unused dungeon music from the development of the game.",
+            "audioFile": "MUS_Dungeon_Unused.ogg"
+        },
+        {
+            "title": "Credits (Unused)",
+            "description": "Unused music for a scrapped credits scene.",
+            "audioFile": "MUS_Credits_Unused.ogg"
+        },
+        {
+            "title": "The Evil Wizard (Extended)",
+            "description": "An extended version of the Evil Wizard's theme.",
+            "audioFile": "MUS_Wizard_Extended.ogg"
+        },
+        {
+            "title": "Trailer",
+            "description": "Music created for a trailer to show off the game at a game exhibition.",
+            "audioFile": "MUS_Trailer.ogg"
         }
     ]        
 }
