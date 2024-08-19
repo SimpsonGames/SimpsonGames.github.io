@@ -1,0 +1,22 @@
+{
+    "pageTitle": "Cellborn",
+    "pageDescription": "The soundtrack I created for my university final year project!",
+    "pageLink": "cellborn",
+    "music": [
+        {
+            "title": "Title Theme",
+            "description": "The music that plays on the title screen.",
+            "audioFile": "MUS_Title_Screen.ogg"
+        },
+        {
+            "title": "Story",
+            "description": "The music that plays on the story screen.",
+            "audioFile": "MUS_Story.ogg"
+        },
+        {
+            "title": "Cell",
+            "description": "The music that plays before you leave the beginning cell.",
+            "audioFile": "MUS_Cell.ogg"
+        }
+    ]        
+}
