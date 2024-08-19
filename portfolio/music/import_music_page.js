@@ -28,6 +28,8 @@ function importInfo(fileName)
                 </td></tr>`
             });
 
+            pageInfo += `</table>`
+
             /* pageInfo += `<h3>Skills Used</h3>
             <ul>`
             data.skills.forEach(skill => {
