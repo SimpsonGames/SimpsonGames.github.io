@@ -4,6 +4,11 @@
             "title":"Cellborn",
             "image":"cellborn.png",
             "page":"cellborn-ost"
-       }
+       },
+       {
+         "title":"The Patience Test",
+         "image":"thepatiencetest.png",
+         "page":"the_patience_test-ost"
+      }
     ]
  }

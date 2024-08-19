@@ -1,0 +1,38 @@
+{
+    "pageTitle": "The Patience Test",
+    "pageDescription": "The soundtrack I created for The Patience Test!",
+    "pageLink": "the_patience_test",
+    "musicFolder": "the_patience_test",
+    "music": [
+        {
+            "title": "Blue Hill Corporation",
+            "description": "The jingle for the fictional Blue Hill Corporation, the fictional in-game organisation.",
+            "audioFile": "MUS_Blue_Hill_Jingle.ogg"
+        },
+        {
+            "title": "Tutorial",
+            "description": "The music used in the instructional video shown to you at the beginning of the game.",
+            "audioFile": "MUS_Intro_Video.ogg"
+        },
+        {
+            "title": "Music Box Memories",
+            "description": "A song used in an easter egg, originally from a game I made back in 2015.",
+            "audioFile": "MUS_Music_Box.ogg"
+        },
+        {
+            "title": "Wind-Swept Fields",
+            "description": "A song used in an easter egg, a peaceful guitar melody.",
+            "audioFile": "MUS_Guitar.ogg"
+        },
+        {
+            "title": "Disco Gun Fever",
+            "description": "A song used in an easter egg, originally from Cellborn for the Music Gun.",
+            "audioFile": "MUS_Music_Gun.ogg"
+        },
+        {
+            "title": "Black Hat Hacker",
+            "description": "A song used in an easter egg, originally from the VortexOS OST.",
+            "audioFile": "MUS_FinalBoss_Full_01.ogg"
+        }
+    ]        
+}
