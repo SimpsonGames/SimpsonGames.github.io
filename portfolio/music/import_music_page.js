@@ -19,13 +19,13 @@ function importInfo(fileName)
             </tr>`;
 
             data.music.forEach(musicElement => {
-                pageInfo += `<td>${musicElement.title}</td>
+                pageInfo += `<tr><td>${musicElement.title}</td>
                 <td>${musicElement.description}</td>
                 <td>
                     <audio controls>
                         <source src="/audio/${data.musicFolder}/${musicElement.audioFile} type="audio/ogg">"
                     </audio>
-                </td>`
+                </td></tr>`
             });
 
             /* pageInfo += `<h3>Skills Used</h3>
