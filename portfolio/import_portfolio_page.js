@@ -34,7 +34,9 @@ function importInfo(fileName)
 
             data.gallery.forEach(imageElement => {
                 pageInfo += `<div class="gallery-image-container">
+                <a href="/img/portfolio/${data.galleryFolder}/${imageElement.image}" target="_blank">
                 <img class="gallery-image" src="/img/portfolio/${data.galleryFolder}/${imageElement.image}">
+                </a>
                 <p class="gallery-caption">${imageElement.caption}</p>
                 </div>`
             });
