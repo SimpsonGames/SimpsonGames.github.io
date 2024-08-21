@@ -28,7 +28,16 @@ function importInfo(fileName)
             });
             pageInfo += `</ul>
             <h3>Experience</h3>
-            <p>${data.experience}</p>`
+            <p>${data.experience}</p>
+            <h3>Gallery</h3>
+            <div class="gallery-container">`
+
+            data.gallery.forEach(imageElement => {
+                pageInfo += `<img class="gallery-image" src="/img/portfolio/${data.galleryFolder}/${imageElement.image}" alt="${project.title}">
+                <p class="gallery-caption">${imageElement.caption}</p>`
+            });
+
+            pageInfo += `</div>`
 
             infoContainer.innerHTML = pageInfo;
         });

@@ -196,6 +196,24 @@ table, th, td {
     justify-content: center;
 }
 
+.gallery-container {
+    display: flex;
+    padding: 4px;
+    flex-direction: row;
+    flex-grow: inherit;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery-image {
+    max-width: 300px;
+}
+
+.gallery-caption {
+    max-width: 300px;
+    padding-top: 0%;
+}
+
 .external-link-button {
     width: 85px;
     height: 85px;
