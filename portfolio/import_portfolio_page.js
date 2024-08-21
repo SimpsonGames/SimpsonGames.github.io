@@ -33,8 +33,10 @@ function importInfo(fileName)
             <div class="gallery-container">`
 
             data.gallery.forEach(imageElement => {
-                pageInfo += `<img class="gallery-image" src="/img/portfolio/${data.galleryFolder}/${imageElement.image}">
-                <p class="gallery-caption">${imageElement.caption}</p>`
+                pageInfo += `<div class="gallery-image-container">
+                <img class="gallery-image" src="/img/portfolio/${data.galleryFolder}/${imageElement.image}">
+                <p class="gallery-caption">${imageElement.caption}</p>
+                </div>`
             });
 
             pageInfo += `</div>`

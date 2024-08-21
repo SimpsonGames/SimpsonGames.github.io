@@ -205,6 +205,13 @@ table, th, td {
     flex-wrap: wrap;
 }
 
+.gallery-image-container {
+    max-width: 300px;
+    max-height: fit-content;
+    margin: 15px;
+    text-align: left;
+}
+
 .gallery-image {
     max-width: 300px;
 }
@@ -212,6 +219,7 @@ table, th, td {
 .gallery-caption {
     max-width: 300px;
     padding-top: 0%;
+    font-size: 95%;
 }
 
 .external-link-button {
