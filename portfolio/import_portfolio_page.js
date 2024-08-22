@@ -30,18 +30,33 @@ function importInfo(fileName)
             <h3>Experience</h3>
             <p>${data.experience}</p>
             <h3>Gallery</h3>
-            <div class="gallery-container">`
+            <div class="gallery-container">`;
 
             data.gallery.forEach(imageElement => {
-                pageInfo += `<div class="gallery-image-container">
-                <a href="/img/portfolio/projects/${data.galleryFolder}/${imageElement.image}" target="_blank">
-                <img class="gallery-image" src="/img/portfolio/projects/${data.galleryFolder}/${imageElement.image}">
-                </a>
-                <p class="gallery-caption">${imageElement.caption}</p>
-                </div>`
+                pageInfo += `<div class="gallery-image-container">`;
+
+                let mediaPath = `/img/portfolio/projects/${data.galleryFolder}/${imageElement.media}`;
+
+                switch(imageElement.type) {
+                    case "img":
+                        pageInfo += `<a href="${mediaPath}" target="_blank">
+                                <img class="gallery-image" src="${mediaPath}">
+                                </a>`;
+                        break;
+                    case "vid":
+                        pageInfo += `<video width="300" controls>
+                                <source src="${mediaPath}" type="video/webm">
+                                </video>`;
+                        break;
+                    default:
+                        console.error("Invalid media type!");
+                }
+                
+                pageInfo += `<p class="gallery-caption">${imageElement.caption}</p>
+                </div>`;
             });
 
-            pageInfo += `</div>`
+            pageInfo += `</div>`;
 
             infoContainer.innerHTML = pageInfo;
         });
