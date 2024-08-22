@@ -49,7 +49,7 @@ function importInfo(fileName)
                 {
                     const regex = new RegExp('[^.]+$');
                     let match = imageElement.media.match(regex);
-                    mediaExt = match.toLowerCase();
+                    mediaExt = match[0].toLowerCase();
 
                     switch (mediaExt)
                     {
