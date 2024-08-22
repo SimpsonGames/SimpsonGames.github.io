@@ -62,5 +62,13 @@
     {
         "media" : "blue_hill_video_04.webm",
         "caption" : "The video played on the monitor when you first play the game."
+    },
+    {
+        "media" : "trailer_short.webm",
+        "caption" : "A very short trailer made to promote the release of the game."
+    },
+    {
+        "media" : "vr_trailer.webm",
+        "caption" : "A short trailer made to prompte the release of the VR version of the game."
     }]
 }

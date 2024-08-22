@@ -52,5 +52,37 @@
     {
         "media" : "template_01.png",
         "caption" : "A second, later mockup showing a more final design for the in-game HUD."
+    },
+    {
+        "media" : "VID_Loading.webm",
+        "caption" : "The animation of a blue fairy used for the loading screen."
+    },
+    {
+        "media" : "VID_Render_BHG.webm",
+        "caption" : "An animation showing the Black Hole Gun that was used for the title screen."
+    },
+    {
+        "media" : "VID_Render_Deagle.webm",
+        "caption" : "An animation showing the Deagle that was used for the title screen."
+    },
+    {
+        "media" : "VID_Render_Grapple.webm",
+        "caption" : "An animation showing the Grappling Crossbow that was used for the title screen."
+    },
+    {
+        "media" : "VID_Render_LBR.webm",
+        "caption" : "An animation showing the Laser Beam Rifle that was used for the title screen."
+    },
+    {
+        "media" : "VID_Boss_Cutscene.webm",
+        "caption" : "The cutscene that plays just before fighting the Evil Wizard boss."
+    },
+    {
+        "media" : "VID_Ending_Cutscene.webm",
+        "caption" : "The cutscene that plays after defeating the final boss."
+    },
+    {
+        "media" : "VID_Trailer.webm",
+        "caption" : "The trailer that was put on a screen and played during the game exhibition."
     }]
 }
