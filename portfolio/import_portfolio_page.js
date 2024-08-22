@@ -51,13 +51,11 @@ function importInfo(fileName)
                 {
                     //Is video
                     let match = imageElement.media.match(videoRegex);
-                    mediaExt = match[0].toLowerCase();
-                    
+                    mediaExt = match[0].toLowerCase();                    
                     mediaExt = mediaExt.replace('.', '');
-                    mediaExt = mediaExt.replace(']', '');
 
                     pageInfo += `<video width="300" controls>
-                                 <source src="${mediaPath}" type="video/${mediaExt}]">
+                                 <source src="${mediaPath}" type="video/${mediaExt}">
                                  </video>`;
                 }
                 else
