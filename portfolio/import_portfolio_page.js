@@ -37,42 +37,29 @@ function importInfo(fileName)
 
                 let mediaPath = `/img/portfolio/projects/${data.galleryFolder}/${imageElement.media}`;
 
-                let regex = new RegExp(/\.(jpg|jpeg|png|gif)$/i);
-                if (regex.test(imageElement.media))
+                let imgRegex = new RegExp(/\.(jpg|jpeg|png|webp|bmp|gif)$/i);
+                let videoRegex = new RegExp(/\.(mp4|webm|ogg)$/i);
+
+                if (imgRegex.test(imageElement.media))
                 {
                     //Is image
                     pageInfo += `<a href="${mediaPath}" target="_blank">
                     <img class="gallery-image" src="${mediaPath}">
                     </a>`;
                 }
-                else
+                else if (videoRegex.test(imageElement.media))
                 {
-                    const regex = new RegExp('[^.]+$');
-                    let match = imageElement.media.match(regex);
+                    //Is video
+                    let match = imageElement.media.match(videoRegex);
                     mediaExt = match[0].toLowerCase();
 
-                    switch (mediaExt)
-                    {
-                        case "mp4":
-                            pageInfo += `<video width="300" controls>
-                                         <source src="${mediaPath}" type="video/mp4">
-                                         </video>`;
-                            break;
-                        case "webm":
-                            pageInfo += `<video width="300" controls>
-                                         <source src="${mediaPath}" type="video/webm">
-                                         </video>`;
-                            break;
-                        case "ogg":
-                            pageInfo += `<video width="300" controls>
-                                            <source src="${mediaPath}" type="video/ogg">
-                                            </video>`;
-                            break;
-                        default:
-                            console.error(`Incorrect file type: ${mediaExt}`);
-                            break;
-                                
-                    }
+                    pageInfo += `<video width="300" controls>
+                                 <source src="${mediaPath}" type="video/${mediaExt}]">
+                                 </video>`;
+                }
+                else
+                {
+                    console.error(`Invalid file type! ${imageElement.media}`);
                 }
                 
                 pageInfo += `<p class="gallery-caption">${imageElement.caption}</p>
