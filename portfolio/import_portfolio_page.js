@@ -71,19 +71,6 @@ function importInfo(fileName)
                                 
                     }
                 }
-
-                switch(imageElement.type) {
-                    case "img":
-                        
-                        break;
-                    case "vid":
-                        pageInfo += `<video width="300" controls>
-                                <source src="${mediaPath}" type="video/webm">
-                                </video>`;
-                        break;
-                    default:
-                        console.error("Invalid media type!");
-                }
                 
                 pageInfo += `<p class="gallery-caption">${imageElement.caption}</p>
                 </div>`;
