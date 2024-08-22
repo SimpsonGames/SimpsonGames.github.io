@@ -19,47 +19,38 @@
     "galleryFolder" : "cellborn",
     "gallery" : [{
         "media" : "cellborn.png",
-        "type" : "img",
         "caption" : "The panel for the game."
     },
     {
         "media" : "UI_Logo.png",
-        "type" : "img",
         "caption" : "The logo for the game."
     },
     {
         "media" : "ICON_Wizard.png",
-        "type" : "img",
         "caption" : "The desktop icon for the game."
     },
     {
         "media" : "Cellborn Poster.jpg",
-        "type" : "img",
         "caption" : "The official poster used for the game."
     },
     {
         "media" : "2022-03-15 15-48-46.png",
-        "type" : "img",
         "caption" : "A development screenshot showing an early UI. (15/03/2022)"
     },
     {
         "media" : "2022-03-15 15-49-22.png",
-        "type" : "img",
         "caption" : "A development screenshot without UI. (15/03/2022)"
     },
     {
         "media" : "2022-04-14 18-55-59.png",
-        "type" : "img",
         "caption" : "A development screenshot showing the player in the beginning cell. (14/04/2022)"
     },
     {
         "media" : "UIMockup (1).png",
-        "type" : "img",
         "caption" : "A mockup showing an early design for the in-game HUD."
     },
     {
         "media" : "template_01.png",
-        "type" : "img",
         "caption" : "A second, later mockup showing a more final design for the in-game HUD."
     }]
 }

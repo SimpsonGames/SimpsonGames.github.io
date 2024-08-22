@@ -9,72 +9,58 @@
     "galleryFolder" : "the_patience_test",
     "gallery" : [{
         "media" : "thepatiencetest.png",
-        "type" : "img",
         "caption" : "The panel for the game."
     },
     {
         "media" : "main_menu.png",
-        "type" : "img",
         "caption" : "The in-game main menu screen."
     },
     {
         "media" : "test_chamber.png",
-        "type" : "img",
         "caption" : "The main concrete test chamber for the game with the introduction video playing on the screen."
     },
     {
         "media" : "light_baking_01.png",
-        "type" : "img",
         "caption" : "Screenshot showing buggy light baking in the waiting room."
     },
     {
         "media" : "light_baking_02.png",
-        "type" : "img",
         "caption" : "Screenshot showing buggy light baking in the reception."
     },
     {
         "media" : "light_baking_03.png",
-        "type" : "img",
         "caption" : "Screenshot showing buggy light baking in the back corridors."
     },
     {
         "media" : "light_baking_04.png",
-        "type" : "img",
         "caption" : "Screenshot showing buggy light baking behind the reception desk."
     },
     {
         "media" : "light_baking_05.png",
-        "type" : "img",
         "caption" : "Screenshot showing buggy light baking in the main sitting area."
     },
     {
         "media" : "light_baking_06.png",
-        "type" : "img",
         "caption" : "Screenshot showing buggy light baking at the entrance to the male toilets."
     },
     {
         "media" : "interior_bush.png",
-        "type" : "img",
         "caption" : "A development screenshot showing a piece of the exterior inside of the building."
     },
     {
         "media" : "leafless_trees.png",
-        "type" : "img",
         "caption" : "A development screenshot showing the exterior of the building with all the leaves in the incorrect position."
     },
     {
         "media" : "vr_test.png",
-        "type" : "img",
         "caption" : "A screenshot showing the initial tests of porting the game to virtual reality."
     },
     {
         "media" : "vr_desk_view.png",
-        "type" : "img",
         "caption" : "A development screenshot showing a VR POV of being sat at one of the reception desks."
     },
     {
         "media" : "blue_hill_video_04.webm",
-        "type" : "vid",
         "caption" : "The video played on the monitor when you first play the game."
     }]
 }

@@ -37,11 +37,44 @@ function importInfo(fileName)
 
                 let mediaPath = `/img/portfolio/projects/${data.galleryFolder}/${imageElement.media}`;
 
+                let regex = new RegExp(/^[^\s]+\.(jpg|jpeg|png|gif|bmp)$/i);
+                if (regex.test(imageElement.media))
+                {
+                    //Is image
+                    pageInfo += `<a href="${mediaPath}" target="_blank">
+                    <img class="gallery-image" src="${mediaPath}">
+                    </a>`;
+                }
+                else
+                {
+                    const regex = new RegExp('[^.]+$');
+                    let match = imageElement.media.match(regex);
+                    mediaExt = match.toLowerCase();
+
+                    switch (mediaExt)
+                    {
+                        case "mp4":
+                            pageInfo += `<video width="300" controls>
+                                         <source src="${mediaPath}" type="video/mp4">
+                                         </video>`;
+                            break;
+                        case "webm":
+                            pageInfo += `<video width="300" controls>
+                                         <source src="${mediaPath}" type="video/webm">
+                                         </video>`;
+                            break;
+                        case "ogg":
+                            pageInfo += `<video width="300" controls>
+                                            <source src="${mediaPath}" type="video/ogg">
+                                            </video>`;
+                            break;
+                                
+                    }
+                }
+
                 switch(imageElement.type) {
                     case "img":
-                        pageInfo += `<a href="${mediaPath}" target="_blank">
-                                <img class="gallery-image" src="${mediaPath}">
-                                </a>`;
+                        
                         break;
                     case "vid":
                         pageInfo += `<video width="300" controls>
