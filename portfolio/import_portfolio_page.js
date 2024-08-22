@@ -37,7 +37,7 @@ function importInfo(fileName)
 
                 let mediaPath = `/img/portfolio/projects/${data.galleryFolder}/${imageElement.media}`;
 
-                let regex = new RegExp(/^[^\s]+\.(jpg|jpeg|png|gif|bmp)$/i);
+                let regex = new RegExp(/\.(jpg|jpeg|png|gif)$/i);
                 if (regex.test(imageElement.media))
                 {
                     //Is image
@@ -67,6 +67,9 @@ function importInfo(fileName)
                             pageInfo += `<video width="300" controls>
                                             <source src="${mediaPath}" type="video/ogg">
                                             </video>`;
+                            break;
+                        default:
+                            console.error(`Incorrect file type: ${mediaExt}`);
                             break;
                                 
                     }
