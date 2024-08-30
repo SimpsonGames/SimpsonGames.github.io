@@ -10,6 +10,10 @@ function importInfo(fileName)
             let pageInfo = `<h1>${data.title}</h1>
             <h3>Synopsis</h3>
             <p>${data.synopsis}</p>
+            <h3>Info</h3>
+            <p>Engine: ${data.engine}</p>
+            <p>Date Started: ${data.startDate}</p>
+            <p>Date Completed: ${data.endDate}</p>
             <h3>Credits</h3>`;
 
             data.team.forEach(teamElement => {

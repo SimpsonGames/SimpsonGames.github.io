@@ -1,6 +1,9 @@
 {
     "title" : "Cellborn",
     "synopsis" : "Made for my university Game Development module, Cellborn sees you as the intrepid Elfin trying to escape the Evil Wizard's tower initially armed with nothing but a large collection of pebbles! Along the way, Elfin collects a wide variety of strange and interesting guns that can be used to defeat the fearsome fairies and spiteful spitting snakes that inhabit the tower!<p>Are you fearless enough to defeat the Evil Wizard and earn your freedom?",
+    "engine" : "Unity & C#",
+    "startDate" : "09/02/2022",
+    "endDate" : "15/06/2022",
     "team" : [{
         "role" : "Leads",
         "credits" : [ "Lead Director - Matilde Blackmore", "Lead Programmer - Luke Rapkin", "Lead Artist - Maisie Parkinson" ] },
