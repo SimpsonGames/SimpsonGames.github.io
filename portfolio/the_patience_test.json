@@ -2,8 +2,8 @@
     "title" : "The Patience Test",
     "synopsis" : "The Patience Test sees you sitting in a concrete room with nothing but the quiet ticking of the on-screen clock and the hum of the ventilation for company. Your challenge is to remain in the room for as long as possible.",
     "engine" : "Unity & C#",
-    "startDate" : "20/02/2023",
-    "endDate" : "15/06/2023",
+    "startDate" : "20/02/2023 (PC), 02/05/2023 (VR)",
+    "endDate" : "01/04/2023 (PC), 11/05/2023 (VR)",
     "team" : [{
         "role" : "Programming & Audio",
         "credits" : [ "Harry Simpson" ] }],
