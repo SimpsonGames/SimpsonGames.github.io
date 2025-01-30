@@ -1,0 +1,26 @@
+{
+    "title": "Neon Tower Ascension",
+    "synopsis": "Neon Tower Ascension sees you traversing a perilous obstacle course of floating and glowing neon platforms. Your goal is to reach the top of the tower as fast as you can!",
+    "engine": "Unreal Engine 5 (Blueprints)",
+    "startDate": "20/09/2023",
+    "endDate": "30/05/2025",
+    "team": [
+        {
+            "role": "Programming & Audio",
+            "credits": [
+                "Harry Simpson"
+            ]
+        }
+    ],
+    "skills": [
+        "Blueprints",
+        "Modelling",
+        "Game Modes",
+        "Materials",
+        "Inheritance"
+    ],
+    "experience": "Neon Tower Ascension began development in September 2023 after Unity announced its controversial Runtime Fee. I began looking for alternatives to Unity and started with Unreal Engine as, at the time, it seemed to be the second most popular choice for a game engine. I decided to create a simple 3D platformer game since it seemed like a good, easy, and simple first project to tackle.",
+    "galleryFolder": null,
+    "gallery": [
+    ]
+}

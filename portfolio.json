@@ -62,6 +62,15 @@
                "portfolioPage": "#",
                "externalPage": "#",
                "featured": true
+          },
+          {
+               "title": "Neon Tower Ascension",
+               "date": "January 2025",
+               "description": "A simple platformer created in Unreal Engine 5.",
+               "image": "neontower.png",
+               "portfolioPage": "neon_tower_ascension",
+               "externalPage": "https://simpsongames.itch.io/neon-tower-ascension",
+               "featured": true
           }
      ]
 }
